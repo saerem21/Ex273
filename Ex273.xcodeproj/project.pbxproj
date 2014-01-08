@@ -21,6 +21,7 @@
 		00BE65FB187D44A2001537B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BE65DD187D44A2001537B8 /* UIKit.framework */; };
 		00BE6603187D44A2001537B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00BE6601187D44A2001537B8 /* InfoPlist.strings */; };
 		00BE6605187D44A2001537B8 /* Ex273Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BE6604187D44A2001537B8 /* Ex273Tests.m */; };
+		00BE6610187D44DA001537B8 /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BE660F187D44DA001537B8 /* DrawingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		00BE6600187D44A2001537B8 /* Ex273Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ex273Tests-Info.plist"; sourceTree = "<group>"; };
 		00BE6602187D44A2001537B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00BE6604187D44A2001537B8 /* Ex273Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ex273Tests.m; sourceTree = "<group>"; };
+		00BE660E187D44DA001537B8 /* DrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawingView.h; path = ../DrawingView.h; sourceTree = "<group>"; };
+		00BE660F187D44DA001537B8 /* DrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawingView.m; path = ../DrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		00BE65DF187D44A2001537B8 /* Ex273 */ = {
 			isa = PBXGroup;
 			children = (
+				00BE660E187D44DA001537B8 /* DrawingView.h */,
+				00BE660F187D44DA001537B8 /* DrawingView.m */,
 				00BE65E8187D44A2001537B8 /* AppDelegate.h */,
 				00BE65E9187D44A2001537B8 /* AppDelegate.m */,
 				00BE65EB187D44A2001537B8 /* Main.storyboard */,
@@ -252,6 +257,7 @@
 				00BE65F0187D44A2001537B8 /* ViewController.m in Sources */,
 				00BE65EA187D44A2001537B8 /* AppDelegate.m in Sources */,
 				00BE65E6187D44A2001537B8 /* main.m in Sources */,
+				00BE6610187D44DA001537B8 /* DrawingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
